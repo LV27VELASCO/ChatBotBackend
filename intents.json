@@ -1,0 +1,79 @@
+{
+    "intents": [
+        {
+            "tag": "inicio_aerolinea",
+            "patterns": ["hola", "qué tal", "cómo estás", "saludos"],
+            "responses": ["¡Bienvenido a la aerolínea!", "Hola, ¿en qué puedo ayudarte?", "¿Cómo podemos asistirte hoy?"]
+        },
+        {
+            "tag": "nombre_aerolinea",
+            "patterns": ["cómo es el nombre de la aerolínea", "nombre de la compañía", "nombre de la empresa"],
+            "responses": ["El nombre de nuestra aerolínea es Aerolínea JDA.", "Somos la Aerolínea JDA.", "Nuestra aerolínea se llama Aerolínea JDA."]
+        },
+        {
+            "tag": "reserva_vuelo",
+            "patterns": ["Quiero reservar un vuelo", "Reservar un boleto de avión", "Vuelos disponibles"],
+            "responses": ["Claro, ¿a dónde te gustaría volar?", "¿Cuál es tu destino?", "Por favor, indícame la fecha de tu viaje."]
+        },
+        {
+            "tag": "destino",
+            "patterns": ["Quiero volar a Nueva York", "Destino: París", "Voy a Los Ángeles"],
+            "responses": ["Genial elección. ¿Cuándo planeas viajar?", "¿Cuál es la fecha de tu vuelo?", "Por favor, proporciona la fecha de salida."]
+        },
+        {
+            "tag": "fecha_vuelo",
+            "patterns": ["Mi vuelo es el 15 de octubre", "Salgo el próximo viernes", "El 5 de septiembre"],
+            "responses": ["Gracias por la información. ¿Cuántos pasajeros viajarán contigo?", "¿Cuántos boletos necesitas?", "¿Para cuántos pasajeros deseas reservar?"]
+        },
+        {
+            "tag": "pasajeros",
+            "patterns": ["Somos 2 adultos y 1 niño", "Un adulto y dos niños", "Tres pasajeros"],
+            "responses": ["Entendido. ¿Algún niño es menor de 12 años?", "Por favor, indícame la edad del niño.", "¿El niño es menor de 12 años?"]
+        },
+        {
+            "tag": "clase",
+            "patterns": ["Quiero viajar en clase económica", "Clase preferente", "Primera clase"],
+            "responses": ["Perfecto. ¿Tienes alguna preferencia de clase?", "¿Qué tipo de clase prefieres?", "¿Clase económica, preferente o primera clase?"]
+        },
+        {
+            "tag": "confirmacion_reserva",
+            "patterns": ["Confirmar mi reserva", "Reservar boletos", "¿Qué he reservado?"],
+            "responses": ["Claro, déjame confirmar tus detalles de reserva.", "Verificando tu información de vuelo...", "Revisando tu reserva en proceso..."]
+        },
+        {
+            "tag": "informacion_vuelo",
+            "patterns": ["¿Cuál es el número de vuelo?", "Horario de salida", "Detalles del vuelo"],
+            "responses": ["Tu número de vuelo es XX123.", "La hora de salida es a las 10:00 AM.", "Los detalles de tu vuelo son los siguientes:"]
+        },
+        {
+            "tag": "equipaje",
+            "patterns": ["Política de equipaje", "¿Cuántas maletas puedo llevar?", "Tamaño del equipaje"],
+            "responses": ["Puedes llevar hasta 2 maletas de 23 kg cada una.", "La política de equipaje permite llevar 1 maleta de 23 kg y un artículo personal.", "El tamaño máximo permitido para el equipaje de mano es 55x40x20 cm."]
+        },
+        {
+            "tag": "servicios_adicionales",
+            "patterns": ["¿Ofrecen comidas a bordo?", "¿Qué servicios adicionales tienen?", "Entretenimiento en el vuelo"],
+            "responses": ["Sí, ofrecemos comidas a bordo. Puedes consultar nuestro menú en línea.", "Ofrecemos servicios adicionales como WiFi a bordo y asientos premium.", "Tenemos una variedad de opciones de entretenimiento a bordo para todos los pasajeros."]
+        },
+        {
+            "tag": "cambio_reserva",
+            "patterns": ["Cambiar mi reserva", "Modificar fecha de vuelo", "Reprogramar vuelo"],
+            "responses": ["Entendido. Por favor, proporciona tu número de reserva.", "Para realizar cambios en tu reserva, necesitamos tu número de reserva.", "Por favor, indícame tu número de reserva para poder ayudarte."]
+        },
+        {
+            "tag": "cancelar_reserva",
+            "patterns": ["Cancelar mi vuelo", "Anular reserva", "¿Puedo cancelar mi boleto?"],
+            "responses": ["Lamentamos escuchar eso. Por favor, proporciona tu número de reserva para proceder con la cancelación.", "Para cancelar tu reserva, necesitamos tu número de reserva.", "Por favor, indícame tu número de reserva para cancelar el vuelo."]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["Gracias por tu ayuda", "Excelente servicio", "Muy amable"],
+            "responses": ["¡De nada! Si tienes más preguntas, no dudes en preguntar.", "¡Gracias por tus amables palabras! Estamos aquí para ayudarte.", "Nos complace poder ayudarte. ¡Disfruta de tu vuelo!"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Adiós", "Hasta luego", "Cerrando sesión"],
+            "responses": ["¡Hasta luego! Siempre estamos aquí para ayudarte cuando lo necesites.", "Que tengas un buen día y un excelente vuelo.", "¡Adiós! Siempre puedes regresar si tienes más preguntas."]
+        }
+    ]
+}
